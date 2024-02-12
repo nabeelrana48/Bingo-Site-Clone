@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Custom Classes */
+.button {
+    width: 10rem;
+    height: 2.7rem;
+    font-size: 13px;
+}
+
+.btn:hover {
+    background-color: #0b6991;
+}
+
+.horizontal-blue-line {
+    width: 80px;
+    height: 1.3px;
+    margin: 20px auto;
+}
+.bg-blue{
+    background-color: #28ABE3;
+}
+
+/* Navbar Start*/
+.navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #28ABE3;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropstart:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropstart>.dropdown-menu {
+    position: relative;
+    right: 101.5%;
+    top: 0%;
+}
+
+.dropend>.dropdown-menu {
+    position: relative;
+    left: 101.5%;
+    top: 0%;
+}
+
+.dropdown-item {
+    color: lightgrey;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Navbar End */
+
+/* Section 1 Slider Start */
+.carousel-item .image {
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+}
+
+.slider-side-button {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(80, 81, 81);
+}
+
+/* Section 1 Slider End */
+
+/* Section 2 Cards Start */
+.card-section {
+    padding: 100px 0px;
+}
+
+.card-sec-p {
+    width: 60%;
+    margin: 0 auto;
+    color: grey;
+}
+
+.card {
+    border: 1px solid #eee;
+    transition: all 0.3s ease 0s;
+}
+
+.card-icon-div {
+    height: 55px;
+    width: 55px;
+    margin: auto;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 50px 0px rgb(232 231 231), -10px -10px 50px 0px rgb(232 231 231);
+}
+
+.card:hover>.card-body .card-icon-div {
+    background-color: white;
+}
+
+.card:hover>.card-body .material-symbols-outlined {
+    color: #28ABE3;
+}
+
+/* Section 2 Cards End */
+
+/* Section 3 Services Start */
+.services-section {
+    padding: 100px 0 0 0;
+    background-color: #F7F7F7;
+}
+
+.services-p-icon {
+    color: rgb(101, 101, 101);
+    font-size: 23px;
+    font-weight: 300;
+}
+
+/* Section 3 Services End */
+
+/* Section 4 Contact Us Start */
+.contact-section {
+    background: url('https://www.timesitsolutions.com/images/call-to-action-bg-2.jpg');
+}
+
+/* Section 4 Contact Us Start */
+
+/* Section 5 Awards Start */
+.award-p-icon {
+    color: #28ABE3;
+}
+
+.award-p {
+    color: rgb(109, 109, 109);
+}
+
+.vertical-line {
+    width: 1.3px;
+    height: 50px;
+    background-color: rgb(234, 233, 233);
+}
+
+/* Section 5 Awards End */
+
+/* Section 6 Clients Start */
+.client-chat-icon {
+    display: inline-block;
+    width: 53px;
+    height: 50px;
+    transform: scalex(-1);
+}
+
+.client-img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Section 6 Clients End */
+
+/* Section 7 Posts Start */
+.post-card-p {
+    color: grey;
+}
+
+.post-card-b {
+    width: 9em;
+}
+
+/* Section 7 Posts End */
+
+/* Footer Start */
+.footer-top {
+    background-color: rgb(39, 39, 39);
+}
+
+.footer-link {
+    line-height: 30px;
+    text-decoration: none;
+    color: rgb(144 146 148);
+}
+
+.footer-link:hover {
+    color: #28ABE3;
+
+}
+
+.footer-bottom-p {
+    font-size: 12px;
+    color: grey;
+}
+.footer-bottom-p-s{
+    color: #28ABE3;
+}
+
+/* Footer End */
+@media only screen and (max-width: 992px) {
+    .para{
+        width: 80%!important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .para1{
+        width: 100%!important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
